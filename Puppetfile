@@ -59,3 +59,7 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+mod "brewcask",
+  :git => "https://github.com/phinze/puppet-brewcask",
+  :ref => "9e4147b92997a984bc26f991289b68fd0fe3d52a"

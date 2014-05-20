@@ -57,6 +57,7 @@ node default {
   include git
   include hub
   include nginx
+  class {"brewcask": }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -87,4 +88,7 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+
+  package { 'firefox': provider => 'brewcask', require => Class["brewcask"] }
 }
