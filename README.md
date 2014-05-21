@@ -66,11 +66,8 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/boxen/our-boxen /opt/boxen/repo
+git clone git@github.com:BuddyApp/our-boxen.git /opt/boxen/repo
 cd /opt/boxen/repo
-git remote rm origin
-git remote add origin <the location of my new git repository>
-git push -u origin master
 ```
 
 Now that your boxen is bootstrapped, you can run the following to
