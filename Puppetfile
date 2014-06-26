@@ -1,3 +1,4 @@
+
 # This file manages Puppet module dependencies.
 #
 # It works a lot like Bundler. We provide some core modules by
@@ -60,6 +61,8 @@ github "zsh",         "1.0.0"
 github "osx",         "2.5.0"
 github "emacs",       "1.3.0"
 github "postgresql",  "3.0.0"
+github "sysctl",      "1.0.1"
+github "ohmyzsh",     "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

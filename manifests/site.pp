@@ -59,6 +59,7 @@ node default {
   include nginx
   include brewcask
   include zsh
+  include ohmyzsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
