@@ -94,4 +94,5 @@ node default {
   package { 'google-chrome': provider => 'brewcask'}
   package { 'sqwiggle': provider => 'brewcask'}
   package { 'dropbox': provider => 'brewcask' }
+  package { 'iterm2': provider => 'brewcask' }
 }

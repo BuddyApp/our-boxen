@@ -81,6 +81,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.3.0)
@@ -139,6 +144,7 @@ DEPENDENCIES
   osx (= 2.5.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  postgresql (= 3.0.0)
   repository (= 2.3.0)
   ruby (= 7.3.0)
   stdlib (= 4.1.0)

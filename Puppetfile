@@ -59,6 +59,7 @@ github "xquartz",     "1.1.1"
 github "zsh",         "1.0.0"
 github "osx",         "2.5.0"
 github "emacs",       "1.3.0"
+github "postgresql",  "3.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
